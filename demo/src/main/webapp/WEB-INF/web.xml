@@ -6,16 +6,34 @@
   <display-name>Archetype Created Web Application</display-name>
 
   <welcome-file-list>
-    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>Hello.java</welcome-file>
   </welcome-file-list>
 
   <servlet>
-    <servlet-name>HelloCoolHelp</servlet-name>
-    <servlet-class>com.example.HelloCoolHelp</servlet-class>
+    <servlet-name>CardTest2</servlet-name>
+    <servlet-class>com.example.CardTest2</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>HelloCoolHelp</servlet-name>
+    <servlet-name>CardTest2</servlet-name>
+    <url-pattern>/CardTest2</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>HelloJsp</servlet-name>
+    <servlet-class>com.example.HelloJsp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloJsp</servlet-name>
     <url-pattern>/hello</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>Hello</servlet-name>
+    <servlet-class>com.example.Hello</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Hello</servlet-name>
+    <url-pattern>/Hello</url-pattern>
+  </servlet-mapping>
 </web-app>
